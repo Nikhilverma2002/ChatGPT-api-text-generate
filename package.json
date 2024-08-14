@@ -1,0 +1,20 @@
+{
+  "name": "openai-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node index.js",
+    "start": "node ./src/server.js"
+  },
+  "author": "Nikhil Verma",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/openai": "^0.0.26",
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "openai": "^4.33.0",
+    "process": "^0.11.10"
+  }
+}
